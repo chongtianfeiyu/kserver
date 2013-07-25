@@ -6,7 +6,7 @@ import com.kserver.memory.syncData.SyncDB;
 import com.kserver.util.ResourceBuffer;
 
 /**
- * 公共信息处理类(zhaohui)
+ * 公共信息处理类
  * 
  * @author ksfzhaohui
  * 
