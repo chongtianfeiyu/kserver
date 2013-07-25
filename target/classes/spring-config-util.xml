@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- 同步器 -->
+	<bean id="syncDB" class="com.kserver.memory.syncData.syncDB.SyncQueue"
+		singleton="true">
+	</bean>
+	
+	<!-- 解码器 -->
+	<bean id="packageDecoder" class="com.kserver.protocol.coder.decoder.JsonPackageDecoder"
+		singleton="true">
+	</bean>
+	
+	<!-- 编码器 -->
+	<bean id="packageEncoder" class="com.kserver.protocol.coder.encoder.JsonPackageEncoder"
+		singleton="true">
+	</bean>
+</beans>

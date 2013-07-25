@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- 事件异步处理器 -->
+	<bean id="applicationEventMulticaster"
+		class="com.kserver.gameService.event.AsyncApplicationEventMulticaster" />
+</beans>

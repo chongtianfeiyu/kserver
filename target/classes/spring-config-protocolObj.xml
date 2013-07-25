@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- 协议号为1的参数对象
+	<alias name="protocolObj1" alias="com.kserver.protocolObj.GoodsPicInfo$PicInfo"/> -->
+	<alias name="protocolObj1" alias="com.kserver.protocolObj.Person"/>
+</beans>

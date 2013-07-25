@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING/DTD BEAN/EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- 协议号为1的命令 -->
+	<bean id="command1" class="com.kserver.cmd.Command1"
+		singleton="true">
+	</bean>
+
+</beans>
